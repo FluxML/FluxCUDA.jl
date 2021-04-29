@@ -146,8 +146,10 @@ uuid = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 version = "0.8.4"
 
 [[Flux]]
-deps = ["AbstractTrees", "Adapt", "CUDA", "CodecZlib", "Colors", "DelimitedFiles", "Functors", "Juno", "LinearAlgebra", "MacroTools", "NNlib", "NNlibCUDA", "Pkg", "Printf", "Random", "Reexport", "SHA", "Statistics", "StatsBase", "Test", "ZipFile", "Zygote"]
-git-tree-sha1 = "5e94fff7b4385fdd059863300b6b25ea0f849dda"
+deps = ["AbstractTrees", "Adapt", "CodecZlib", "Colors", "DelimitedFiles", "Functors", "GPUArrays", "Juno", "LinearAlgebra", "MacroTools", "NNlib", "Printf", "Random", "Reexport", "SHA", "Statistics", "StatsBase", "Test", "ZipFile", "Zygote"]
+git-tree-sha1 = "97320056f6c61af06be3e7f0bbd0dea16442cf6c"
+repo-rev = "jps/many-gpu-backends"
+repo-url = "https://github.com/jpsamaroo/Flux.jl"
 uuid = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 version = "0.12.3"
 
