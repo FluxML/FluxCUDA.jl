@@ -147,7 +147,7 @@ version = "0.8.4"
 
 [[Flux]]
 deps = ["AbstractTrees", "Adapt", "CodecZlib", "Colors", "DelimitedFiles", "Functors", "GPUArrays", "Juno", "LinearAlgebra", "MacroTools", "NNlib", "Printf", "Random", "Reexport", "SHA", "Statistics", "StatsBase", "Test", "ZipFile", "Zygote"]
-git-tree-sha1 = "97320056f6c61af06be3e7f0bbd0dea16442cf6c"
+git-tree-sha1 = "0cf2ebc016865c4bc5720672a9c55a0599ce2cd0"
 repo-rev = "jps/many-gpu-backends"
 repo-url = "https://github.com/jpsamaroo/Flux.jl"
 uuid = "587475ba-b771-5e3f-ad9e-33799f191a9c"
@@ -281,9 +281,9 @@ version = "0.7.19"
 
 [[NNlibCUDA]]
 deps = ["CUDA", "LinearAlgebra", "NNlib", "Random", "Statistics"]
-git-tree-sha1 = "4b368b466bcdd25d448a5b20de4b7e481d68b88e"
+git-tree-sha1 = "ecf422ac8bcf33156fb77bf35a02c14e3fd6af18"
 uuid = "a00861dc-f156-4864-bf3c-e6376f28a68d"
-version = "0.1.0"
+version = "0.1.1"
 
 [[NaNMath]]
 git-tree-sha1 = "bfe47e760d60b82b66b61d2d44128b62e3a369fb"
